@@ -1,0 +1,14 @@
+Inventory app is a collection of extensible models and utilities
+for inventory management:
+    - record stock levels of all supplies in inventory locations
+    - log and classify of all stock transactions that change stock levels
+    - record details for all consignments of supplies to and from inventory locations
+    - optionally link consignments to logistics (transport) information
+
+DEPENDS ON:
+Locations, Logistics (optionally)
+
+Inventory is intended for use in conjunction with Logistics app, if necessary.
+If you do not need the functionality of Logistics, you must comment out
+lines ending with the following comment: #LOGISTICS
+
